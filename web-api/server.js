@@ -3,6 +3,13 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const os = require('os');
 
+// init profiling
+const appInsightsApiKey = process.env.APP_INSIGHTS_KEY;
+let appInsights = require("applicationinsights");
+appInsights.setup("[your ikey]").start();
+
+
+//
 const azureQueue = require('./services/queue');
 const mongo = require('./services/mongo');
 const Messages = mongo.Messages;
