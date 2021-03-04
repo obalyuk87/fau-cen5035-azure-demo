@@ -3,6 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const os = require('os');
 
+const azureQueue = require('./services/queue');
 const mongo = require('./services/mongo');
 const Messages = mongo.Messages;
 
@@ -39,6 +40,11 @@ app.route('/messages')
             if (err) {
                 res.send(err);
             }
+
+            // push message to queue
+            azureQueue.AddMessage(JSON.stringify(data));
+
+            // return response
             res.json(data);
         });
     });
