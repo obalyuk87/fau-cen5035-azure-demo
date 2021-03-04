@@ -17,6 +17,13 @@
 * Application Insights: https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
 
 
+## Azure Services
+
+* App Services
+* Cosmos DB
+* Azure Queue Storage
+* Application Insights
+
 ## Learning
 
 * https://docs.microsoft.com/en-us/learn/azure/
