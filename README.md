@@ -1,5 +1,13 @@
-# FAU CEN 5035
-# Messages REST API
+# FAU CEN 5035-001: Software Engineering
+# Cloud Intro and Azure Tutorial
+
+## Materials
+* [Slides - Cloud Intro Presentation](https://docs.google.com/presentation/d/e/2PACX-1vQL9sSQ1ryhFlyImf3MPyS6j2GlB6cKY7BipBpSeY3h4rF6lQVONDx_kWr5ifzRfh0JYZEpgRkfXvDF/pub?start=false&loop=false&delayms=3000)
+* YouTube Video: https://youtu.be/jOaSZqGC7Pg
+
+[![YouTube Video](https://img.youtube.com/vi/jOaSZqGC7Pg/0.jpg)](https://www.youtube.com/watch?v=jOaSZqGC7Pg)
+
+![Architecture Pic](/docs/architecture.drawio.png)
 
 ## Links
 
@@ -13,9 +21,10 @@
 ## Services
 
 * Azure Portal: https://azure.microsoft.com/en-us/free/students/
-* SendGrid: https://sendgrid.com/pricing/
 * Application Insights: https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
-
+* Azure Queue Storage: https://docs.microsoft.com/en-us/azure/storage/queues/storage-queues-introduction
+* Azure Cosmos DB: https://azure.microsoft.com/en-us/services/cosmos-db/#overview
+* SendGrid: https://sendgrid.com/pricing/
 
 ## Azure Services
 
