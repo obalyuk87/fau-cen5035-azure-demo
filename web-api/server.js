@@ -5,8 +5,10 @@ const os = require('os');
 
 // init profiling
 const appInsightsApiKey = process.env.APP_INSIGHTS_KEY;
-let appInsights = require("applicationinsights");
-appInsights.setup(appInsightsApiKey).start();
+if (appInsightsApiKey.length > 0){
+    let appInsights = require("applicationinsights");
+    appInsights.setup(appInsightsApiKey).start();
+}
 
 
 //

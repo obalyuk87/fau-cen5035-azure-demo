@@ -6,7 +6,7 @@ services:
     container_name: fau-cen5035-demo-api
     restart: unless-stopped
     build:
-      context: .
+      context: ./web-api
       dockerfile: Dockerfile
     ports:
       - 80:3001
